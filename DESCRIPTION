@@ -1,10 +1,10 @@
-Package: Gemeindeverwaltung
+Package: geocoder
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Geocoding, Reverse Geocoding and CH1903toWGS84 conversion
 Version: 0.1
 Date: 2015-06-29
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Author: Adrian Schmid
+Maintainer: <adrian.schmid@fhsg.ch>
 Description: More about what it does (maybe more than one line)
 License: What license is it under?
 LazyData: TRUE
