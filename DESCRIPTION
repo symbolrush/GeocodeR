@@ -9,3 +9,4 @@ Description: GeocodeR is an experimental package for Geocoding, Reverse Geocodin
 License: Google Maps API licensing https://developers.google.com/maps/licensing?hl=de
 LazyData: TRUE
 Imports: XML
+URL: https://github.com/symbolrush/geocoder
