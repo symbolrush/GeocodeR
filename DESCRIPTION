@@ -5,7 +5,7 @@ Version: 0.1
 Date: 2015-06-29
 Author: Adrian Schmid
 Maintainer: <adrian.schmid@fhsg.ch>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Description: GeocodeR is an experimental package for Geocoding, Reverse Geocoding and CH1903toWGS84 conversion
+License: Google Maps API licensing https://developers.google.com/maps/licensing?hl=de
 LazyData: TRUE
 Imports: XML
