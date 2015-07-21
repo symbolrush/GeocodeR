@@ -1,5 +1,4 @@
 # geocode
-
 geocode <- function(addresses){
   lat <- c()
   lng <- c()
@@ -9,6 +8,6 @@ geocode <- function(addresses){
     lat[i] = as.numeric(XML::xmlValue(XML::getNodeSet(doc, '//location/lat')[[1]]))
     lng[i] = as.numeric(XML::xmlValue(XML::getNodeSet(doc, '//location/lng')[[1]]))
     Sys.sleep(0.2) # Google API only accepts 5 queries per second for free accounts
-  } 
+  }
   return(data.frame(lat = lat, lng = lng))
 }
